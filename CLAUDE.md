@@ -41,6 +41,14 @@ Official GitHub Pages developer portal (`https://krishna-techhub.github.io`) sho
   git push origin main
   ```
 
+## New App / Policy Addition Checklist
+When adding a new app or policy:
+1. Add app asset bundle under `assets/apps/<app-slug>/` (`icon.png`, `favicons/`).
+2. Create `<app-slug>-privacy-policy.html` using the existing template layout with `min-width: 0` on flex items.
+3. Include `.logo-trigger` on brand icons and inject the Logo Lightbox modal snippet.
+4. Add the app card in `index.html` with direct Google Play link and policy page link.
+5. Update footer links across all HTML files and verify `app-ads.txt` if AdMob ads are added.
+
 ## Contact & Developer Identity
 - Developer Entity: Krishna Tech Hub
 - Support Email: `krishnatechhub@gmail.com`

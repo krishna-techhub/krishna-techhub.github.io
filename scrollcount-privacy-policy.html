@@ -6,14 +6,63 @@
   <meta name="theme-color" content="#07090e">
   <title>Privacy Policy — ScrollCount : Reels & Shorts Tracker | Krishna Tech Hub</title>
   <meta name="description" content="Official Privacy Policy and Data Safety disclosures for ScrollCount : Reels & Shorts Tracker (com.techhub.scrollcount) by Krishna Tech Hub. 100% offline with zero internet permission.">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://krishna-techhub.github.io/scrollcount-privacy-policy.html">
 
   <!-- OpenGraph Metadata -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Krishna Tech Hub">
+  <meta property="og:locale" content="en_US">
   <meta property="og:title" content="ScrollCount Privacy Policy — Krishna Tech Hub">
   <meta property="og:description" content="Official Privacy Policy for ScrollCount (com.techhub.scrollcount). 100% offline digital wellbeing tracker with zero internet permission and zero data collection.">
-  <meta property="og:type" content="article">
   <meta property="og:url" content="https://krishna-techhub.github.io/scrollcount-privacy-policy.html">
   <meta property="og:image" content="https://krishna-techhub.github.io/assets/brand/krishna-tech-hub-neon-logo.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Krishna Tech Hub Emblem">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ScrollCount Privacy Policy — Krishna Tech Hub">
+  <meta name="twitter:description" content="Official Privacy Policy for ScrollCount (com.techhub.scrollcount). 100% offline with zero internet permission.">
+  <meta name="twitter:image" content="https://krishna-techhub.github.io/assets/brand/krishna-tech-hub-neon-logo.png">
+
+  <!-- Structured Data: WebPage & Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://krishna-techhub.github.io/scrollcount-privacy-policy.html",
+        "url": "https://krishna-techhub.github.io/scrollcount-privacy-policy.html",
+        "name": "Privacy Policy — ScrollCount : Reels & Shorts Tracker",
+        "description": "Official Privacy Policy and Data Safety disclosures for ScrollCount (com.techhub.scrollcount).",
+        "breadcrumb": {
+          "@id": "https://krishna-techhub.github.io/scrollcount-privacy-policy.html#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://krishna-techhub.github.io/scrollcount-privacy-policy.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://krishna-techhub.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ScrollCount Privacy Policy",
+            "item": "https://krishna-techhub.github.io/scrollcount-privacy-policy.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Favicons for ScrollCount -->
   <link rel="icon" type="image/x-icon" href="assets/apps/scrollcount/favicons/favicon.ico">
@@ -24,7 +73,9 @@
   <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -37,7 +88,7 @@
 
       --text-main: #f8fafc;
       --text-muted: #94a3b8;
-      --text-dim: #64748b;
+      --text-dim: #94a3b8;
 
       --accent-purple: #8b5cf6;
       --accent-purple-light: #a78bfa;
@@ -56,6 +107,41 @@
 
       --blur-glass: blur(16px);
       --shadow-card: 0 16px 40px -12px rgba(0, 0, 0, 0.65);
+    }
+
+    /* Skip to content link for accessibility */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 16px;
+      background: var(--accent-purple-light);
+      color: #000000;
+      padding: 12px 20px;
+      border-radius: var(--radius-sm);
+      font-weight: 700;
+      font-size: 0.9rem;
+      z-index: 10000;
+      transition: top 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    .skip-link:focus {
+      top: 16px;
+      outline: 3px solid #ffffff;
+      outline-offset: 2px;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent-purple-light);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
     }
 
     * {
@@ -1052,6 +1138,7 @@
       padding: 24px;
       opacity: 0;
       visibility: hidden;
+      overflow-y: auto;
       transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s ease;
     }
 
@@ -1066,6 +1153,8 @@
       border-radius: 24px;
       padding: 38px 32px 32px;
       max-width: 480px;
+      max-height: 90vh;
+      overflow-y: auto;
       width: 100%;
       box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 50px -10px rgba(139, 92, 246, 0.35);
       display: flex;
@@ -1075,6 +1164,17 @@
       position: relative;
       transform: scale(0.92);
       transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @media (max-height: 520px), (max-width: 480px) {
+      .logo-modal-card {
+        padding: 24px 20px 20px;
+      }
+      .logo-modal-image-wrap {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 14px;
+      }
     }
 
     .logo-modal-backdrop.active .logo-modal-card {
@@ -1199,6 +1299,9 @@
 </head>
 <body>
 
+  <!-- Skip to content link for accessibility -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
   <div class="bg-grid"></div>
 
   <!-- Header Navigation -->
@@ -1206,7 +1309,7 @@
     <div class="container nav-container">
       <div class="brand">
         <a href="assets/brand/krishna-tech-hub-neon-logo.png" target="_blank" class="brand-icon logo-trigger" aria-label="Open Krishna Tech Hub Official Logo" title="Click to view Krishna Tech Hub Official Logo">
-          <img src="assets/brand/header-k-icon.png" alt="Krishna Tech Hub">
+          <img src="assets/brand/header-k-icon.png" alt="Krishna Tech Hub" width="42" height="42" loading="lazy" decoding="async">
         </a>
         <a href="index.html" class="brand-meta" aria-label="Krishna Tech Hub Homepage">
           <span class="brand-title">Krishna Tech Hub</span>
@@ -1228,7 +1331,7 @@
   </header>
 
   <!-- Main Body Container -->
-  <main class="container">
+  <main class="container" id="main" tabindex="-1">
 
     <!-- Breadcrumbs -->
     <nav class="breadcrumb-nav" aria-label="Breadcrumb">
@@ -1245,7 +1348,7 @@
         <div class="policy-header-content">
           <div class="policy-header-main">
             <div class="app-avatar-box">
-              <img src="assets/apps/scrollcount/icon.png" alt="ScrollCount App Icon">
+              <img src="assets/apps/scrollcount/icon.png" alt="ScrollCount App Icon" width="80" height="80" loading="lazy" decoding="async">
             </div>
             <div class="policy-title-group">
               <h1>
@@ -1327,7 +1430,7 @@
           </div>
           <div class="sidebar-app-box">
             <div class="sidebar-app-icon">
-              <img src="assets/apps/scrollcount/icon.png" alt="ScrollCount Icon">
+              <img src="assets/apps/scrollcount/icon.png" alt="ScrollCount Icon" width="44" height="44" loading="lazy" decoding="async">
             </div>
             <div class="sidebar-app-info">
               <h5>ScrollCount Tracker</h5>
@@ -1709,7 +1812,7 @@
         <div class="footer-brand-col">
           <div class="brand">
             <a href="assets/brand/krishna-tech-hub-neon-logo.png" target="_blank" class="brand-icon logo-trigger" aria-label="Open Krishna Tech Hub Official Logo" title="Click to view Krishna Tech Hub Official Logo">
-              <img src="assets/brand/header-k-icon.png" alt="Krishna Tech Hub">
+              <img src="assets/brand/header-k-icon.png" alt="Krishna Tech Hub" width="42" height="42" loading="lazy" decoding="async">
             </a>
             <a href="index.html" class="brand-meta" aria-label="Krishna Tech Hub Homepage">
               <span class="brand-title">Krishna Tech Hub</span>
@@ -1766,7 +1869,7 @@
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
       </button>
       <div class="logo-modal-image-wrap">
-        <img src="assets/brand/krishna-tech-hub-neon-logo.png" alt="Krishna Tech Hub Neon Logo" id="logoModalImg">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3C/svg%3E" data-src="assets/brand/krishna-tech-hub-neon-logo.png" alt="Krishna Tech Hub Neon Logo" id="logoModalImg" width="180" height="180" decoding="async">
       </div>
       <h3 class="logo-modal-title" id="logoModalTitle">Krishna Tech Hub</h3>
       <p class="logo-modal-subtitle">Official Developer Brand Emblem</p>
@@ -1786,31 +1889,85 @@
   <!-- Scripts -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // Logo Modal Functionality
+      // Accessible Logo Modal with Focus Management & Trap
       const logoModal = document.getElementById('logoModal');
       const logoModalClose = document.getElementById('logoModalClose');
+      const mainContent = document.getElementById('main');
+      let previouslyFocusedElement = null;
+
+      function getFocusableElements(container) {
+        if (!container) return [];
+        return Array.from(container.querySelectorAll(
+          'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        ));
+      }
 
       function openLogoModal(e) {
         if (e) {
           if (e.ctrlKey || e.metaKey || e.button === 1) return;
           e.preventDefault();
+          previouslyFocusedElement = e.currentTarget || document.activeElement;
         }
+
+        // Lazy load the high-res 1.26MB image only when opened
+        const modalImg = document.getElementById('logoModalImg');
+        if (modalImg && modalImg.dataset && modalImg.dataset.src && modalImg.src !== modalImg.dataset.src) {
+          modalImg.src = modalImg.dataset.src;
+        }
+
         if (logoModal) {
           logoModal.classList.add('active');
           logoModal.setAttribute('aria-hidden', 'false');
           document.body.style.overflow = 'hidden';
+          if (mainContent) mainContent.setAttribute('aria-hidden', 'true');
+          const focusable = getFocusableElements(logoModal);
+          if (focusable.length > 0) {
+            (logoModalClose || focusable[0]).focus();
+          }
         }
       }
 
       function closeLogoModal() {
-        if (logoModal) {
+        if (logoModal && logoModal.classList.contains('active')) {
           logoModal.classList.remove('active');
           logoModal.setAttribute('aria-hidden', 'true');
           document.body.style.overflow = '';
+          if (mainContent) mainContent.removeAttribute('aria-hidden');
+          if (previouslyFocusedElement && typeof previouslyFocusedElement.focus === 'function') {
+            previouslyFocusedElement.focus();
+          }
+        }
+      }
+
+      function handleModalKeyDown(e) {
+        if (!logoModal || !logoModal.classList.contains('active')) return;
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeLogoModal();
+          return;
+        }
+        if (e.key === 'Tab') {
+          const focusable = getFocusableElements(logoModal);
+          if (focusable.length === 0) return;
+          const firstElement = focusable[0];
+          const lastElement = focusable[focusable.length - 1];
+
+          if (e.shiftKey) {
+            if (document.activeElement === firstElement) {
+              e.preventDefault();
+              lastElement.focus();
+            }
+          } else {
+            if (document.activeElement === lastElement) {
+              e.preventDefault();
+              firstElement.focus();
+            }
+          }
         }
       }
 
       document.querySelectorAll('.logo-trigger').forEach((trigger) => {
+        trigger.setAttribute('aria-haspopup', 'dialog');
         trigger.addEventListener('click', openLogoModal);
       });
 
@@ -1824,11 +1981,7 @@
         });
       }
 
-      window.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && logoModal && logoModal.classList.contains('active')) {
-          closeLogoModal();
-        }
-      });
+      window.addEventListener('keydown', handleModalKeyDown);
 
       // Active TOC Scroll Spy Script
       const sections = document.querySelectorAll('.policy-section');

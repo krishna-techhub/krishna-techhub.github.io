@@ -1,3 +1,6 @@
 include:
   - app-ads.txt
   - .nojekyll
+  - robots.txt
+  - sitemap.xml
+  - site.webmanifest

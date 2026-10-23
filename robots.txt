@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Crawler Specific Directives
+User-agent: Googlebot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+# Sitemap Location
+Sitemap: https://krishna-techhub.github.io/sitemap.xml
